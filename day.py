@@ -1,2 +1,7 @@
-name = input(str("What your name:"))
-print(name)
+age = int(input("What your name:"))
+print(age)
+
+
+
+
+
