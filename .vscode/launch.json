@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftGame}",
+            "name": "Debug User",
+            "target": "User",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug User"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftGame}",
+            "name": "Release User",
+            "target": "User",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release User"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftGame}",
+            "name": "Debug SwiftGame",
+            "target": "SwiftGame",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug SwiftGame"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:SwiftGame}",
+            "name": "Release SwiftGame",
+            "target": "SwiftGame",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release SwiftGame"
+        }
+    ]
+}
